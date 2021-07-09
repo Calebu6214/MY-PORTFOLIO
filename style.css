@@ -1,0 +1,10 @@
+.main{
+    background-image: url("./portfoliobg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.name{
+    color:green;
+    text-align: center;
+}
