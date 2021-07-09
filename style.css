@@ -8,3 +8,9 @@
     color:green;
     text-align: center;
 }
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    font-style: italic;
+}
