@@ -8,6 +8,10 @@
     color:green;
     text-align: center;
 }
+.float{
+    float: right;
+    border-radius: 100px;
+}
 ol{
     display: flex;
     justify-content: space-evenly;
