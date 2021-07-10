@@ -45,11 +45,13 @@ em{
     background-color: thistle;
     border-radius: 10px 10px 10px 10px;
     color: darkorchid;
+    animation: slideInFromLeft 1s ease-in;
 }
 .skills{
     background-color: thistle;
     border-radius: 10px 10px 10px 10px;
     color: darkorchid;
+    animation: slideInFromRight 1s ease-in;
 }
 .about:hover ,
 .skills:hover ,
@@ -79,4 +81,21 @@ em{
     color: darkorchid;
     background-color: thistle;
     float: right;
+}
+/* animations */
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
+}
+@keyframes slideInFromRight{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
 }
