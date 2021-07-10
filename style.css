@@ -2,11 +2,15 @@
     background-image: url("./portfoliobg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 990px;
 }
 .name{
     color:green;
     text-align: center;
+}
+.mypic{
+    margin-left: 19%;
+    border-radius: 80px;
 }
 .float{
     float: right;
@@ -17,6 +21,7 @@ ol{
     justify-content: space-evenly;
     font-size: x-large;
     font-style: italic;
+    padding-top: 15px;
 }
 h2{
     text-align: center;
@@ -46,6 +51,29 @@ em{
     border-radius: 10px 10px 10px 10px;
     color: darkorchid;
 }
-h3,h4:hover{
+h3:hover ,h4:hover{
     color: green;
+}
+.jobst{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+.job{
+    background-color: rgb(56, 179, 179);
+    padding-top: 5px;  
+    width: fit-content; 
+    border-radius: 10px;
+    color: darkorchid;
+    background-color: thistle;
+}
+.strengths{
+    background-color: rgb(56, 179, 179);
+    padding-top: 5px;  
+    width: fit-content; 
+    border-radius: 10px;
+    color: darkorchid;
+    background-color: thistle;
+    float: right;
 }
