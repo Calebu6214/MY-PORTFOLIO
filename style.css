@@ -51,7 +51,10 @@ em{
     border-radius: 10px 10px 10px 10px;
     color: darkorchid;
 }
-h3:hover ,h4:hover{
+.about:hover ,
+.skills:hover ,
+.job:hover,
+.strengths:hover{
     color: green;
 }
 .jobst{
