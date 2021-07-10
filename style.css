@@ -91,6 +91,14 @@ em{
     color: rgb(248, 39, 16);
     font-size: larger;
 }
+.support{
+    text-align: center;
+}
+h8{
+    color: seagreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
 /* animations */
 @keyframes slideInFromLeft{
     0%{
