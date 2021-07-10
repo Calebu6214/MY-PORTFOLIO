@@ -45,7 +45,7 @@ em{
     background-color: thistle;
     border-radius: 10px 10px 10px 10px;
     color: darkorchid;
-    animation: slideInFromLeft 1s ease-in;
+    animation: slideInFromRight 1s ease-in;
 }
 .skills{
     background-color: thistle;
@@ -105,19 +105,11 @@ h8{
     color: green;
 }
 /* animations */
-@keyframes slideInFromLeft{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(10%);
-    }
-}
 @keyframes slideInFromRight{
     0%{
         transform: translateX(0%);
     }
     100%{
-        transform: translateX(10%);
+        transform: translateX(100%);
     }
 }
